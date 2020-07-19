@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 import requests
 import json
@@ -7,6 +7,7 @@ response = requests.get("https://api.chucknorris.io/jokes/random")
 
 joke = response.json()
 
-print(joke)
+print(joke['value'])
 
-print("joke1")
+#line1
+#line2
